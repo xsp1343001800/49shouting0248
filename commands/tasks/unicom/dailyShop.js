@@ -100,7 +100,7 @@ var dailyShop = {
                 --usableAcFreq
             }
         }
-
+/*
         console.info('尝试5次，花费10定向积分兑换抽奖机会')
 
         await require('./integral').getDxDetail(axios, options)
@@ -121,5 +121,6 @@ var dailyShop = {
             })
         } while (--n > 0)
     }
+    */
 }
 module.exports = dailyShop
