@@ -39,6 +39,7 @@ var dailyShop = {
         })
         return data
     },
+    /*
     duihuan: async (axios, options) => {
         const { encryptmobile } = options
         const useragent = buildUnicomUserAgent(options, 'p')
@@ -58,6 +59,8 @@ var dailyShop = {
             return false
         }
     },
+    //屏蔽兑换函数
+    */
     dailyfreelottery: async (axios, options) => {
         const { encryptmobile } = options
         console.info('开始抽奖')
